@@ -15,7 +15,7 @@
             <img src="{{ theme.options.main.header_image.url }}" />
             {% for insult in boxes.insults.all %} 
             <div>
-                <h1>{{ insults.name }}</h1>
+                <h1>{{ insult.name }}</h1>
             </div>
             {% endfor %}
             <em> A theme by: {{ theme.config.theme.name }} </em>
