@@ -12,6 +12,9 @@
 
     <head>Hello</head>
         <body>
+
+            {% block body %}
+
             <h1>
                 Hello again
             </h1>
@@ -20,8 +23,7 @@
                 <h1>{{ insult.name }}</h1>
             </div>
 
-
             <em> A theme by: {{ theme.config.theme.name }} </em>
-
+            {% endblock %}
         </body>
 </html>
