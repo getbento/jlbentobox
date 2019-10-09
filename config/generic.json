@@ -2,7 +2,7 @@
     "fields": { 
         "header": { 
         "section",
-        "items": 
+        "items": { 
         "title", "text",
         "description": "wysiwyg"
     } 

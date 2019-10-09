@@ -13,6 +13,11 @@
     <head>Hello</head>
         <body>
 
+            <nav>
+                {% for item in navs.main %}
+                <a href="{{ item.url }}">{{ item.name }}</a> <br>
+            </nav>
+
             {% block body %}
 
             <h1>
