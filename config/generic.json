@@ -1,0 +1,12 @@
+{
+    "fields": { 
+        "header": { 
+        "section",
+        "items": 
+        "title", "text",
+        "description": "wysiwyg"
+    } 
+    }
+}
+{ "wireframe": ["section-header"]
+}
