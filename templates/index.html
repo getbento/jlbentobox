@@ -14,27 +14,6 @@
         <body>
 
             <nav>
-                <a href="/">Home</a><br>
-                {% for item in navs.main %}
-                <a href="{{ item.url }}">{{ item.name }}</a> <br>
-
-                {% endfor %}
-            </nav>
-
-            {% block body %}
-
-            <h1>
-                Hello again
-            </h1>
-            <img src="{{ theme.options.main.header_image.url }}" />
-            <div>
-                <h1>{{ insult.name }}</h1>
-            </div>
-
-            <em> A theme by: {{ theme.config.theme.name }} </em>
-            {% endblock %}
-
-            <nav>
                 {% for item in navs.main %}
                     <a href=“{{ item.url }}“>{{ item.name }}</a>
                 {% endfor %}
@@ -54,6 +33,8 @@
                 window.location.reload();
             }
         </script>
+
+            
         </body>
 
 </html>
